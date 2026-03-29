@@ -8,6 +8,7 @@ import ContactSection from '@/components/ContactSection'
 import Footer from '@/components/Footer'
 import CustomCursor from '@/components/CustomCursor'
 import ScrollProgress from '@/components/ScrollProgress'
+import Chatbot from '@/components/Chatbot'
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       </main>
 
       <Footer />
+      <Chatbot />
     </>
   )
 }

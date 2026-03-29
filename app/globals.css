@@ -45,6 +45,12 @@
     @apply bg-background text-foreground;
     font-family: 'Inter', system-ui, sans-serif;
     background-color: #050b14;
+    background-image: linear-gradient(to bottom, rgba(5, 11, 20, 0.8), rgba(5, 11, 20, 0.95)), url('/bg-gustavo.png');
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
     overflow-x: hidden;
   }
 
@@ -55,7 +61,7 @@
     background: #050b14;
   }
   ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, #3b82f6, #8b5cf6);
+    background: linear-gradient(180deg, #3b82f6, #f59e0b);
     border-radius: 3px;
   }
 
@@ -82,7 +88,7 @@
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 50%, #34d399 100%);
+    background: linear-gradient(135deg, #60a5fa 0%, #fbbf24 50%, #f59e0b 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -91,7 +97,7 @@
   .gradient-border {
     position: relative;
     background: linear-gradient(#050b14, #050b14) padding-box,
-      linear-gradient(135deg, #3b82f6, #8b5cf6, #10b981) border-box;
+      linear-gradient(135deg, #3b82f6, #f59e0b, #fbbf24) border-box;
     border: 1px solid transparent;
   }
 
@@ -158,7 +164,7 @@
   top: 0;
   left: 0;
   height: 3px;
-  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #10b981);
+  background: linear-gradient(90deg, #3b82f6, #f59e0b, #fbbf24);
   z-index: 9999;
   transition: width 0.1s ease;
 }
@@ -185,12 +191,12 @@
 }
 
 .orb-purple {
-  background: radial-gradient(circle, #8b5cf6, transparent);
+  background: radial-gradient(circle, #f59e0b, transparent);
   animation-delay: -3s;
 }
 
 .orb-green {
-  background: radial-gradient(circle, #10b981, transparent);
+  background: radial-gradient(circle, #fbbf24, transparent);
   animation-delay: -6s;
 }
 

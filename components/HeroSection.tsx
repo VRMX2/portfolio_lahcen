@@ -18,7 +18,7 @@ export default function HeroSection() {
       className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-20"
     >
       {/* Animated background orbs */}
-      <div className="absolute inset-0 grid-bg opacity-40" />
+      <div className="absolute inset-0 grid-bg opacity-10" />
       <div className="orb orb-blue  w-[600px] h-[600px] top-[-100px] left-[-200px]" />
       <div className="orb orb-purple w-[500px] h-[500px] bottom-[-100px] right-[-150px]" />
       <div className="orb orb-green  w-[400px] h-[400px] top-[40%] left-[50%]" />

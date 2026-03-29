@@ -1,0 +1,16 @@
+{
+  "projectId": "prj_2roUhdgg3sRBbwq7Fy1AE5TbrvAx",
+  "orgId": "team_eOMo9nGqngv9vSCin6vPBa1A",
+  "projectName": "magic-portfolio-for-next-js",
+  "settings": {
+    "createdAt": 1755686308902,
+    "framework": "nextjs",
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "22.x"
+  }
+}
